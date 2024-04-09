@@ -291,6 +291,15 @@ export const DEFAULT_MODELS = [
     },
   },
   {
+    name: "deepseek-coder",
+    available: true,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+    },
+  },
+  {
     name: "gemini-pro",
     available: true,
     provider: {
