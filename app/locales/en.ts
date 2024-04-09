@@ -13,8 +13,8 @@ const en: LocaleType = {
       : "Unauthorized access, please enter pass in [auth](/#/auth) page",
   },
   Auth: {
-    Title: "Need Access Code",
-    Tips: "Please enter passcode",
+    Title: "BondAI",
+    Tips: "Please enter code",
     SubTips: "",
     Input: "access code",
     Confirm: "Confirm",
