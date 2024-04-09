@@ -15,7 +15,7 @@ const en: LocaleType = {
   Auth: {
     Title: "Need Access Code",
     Tips: "Please enter passcode",
-    SubTips: "Enter your api-key",
+    SubTips: "",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
