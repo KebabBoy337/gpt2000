@@ -104,7 +104,7 @@ export const getServerSideConfig = () => {
 
     gtmId: process.env.GTM_ID,
 
-    needCode: ACCESS_CODES.size > 100,
+    needCode: ACCESS_CODES.size > 0,
     code: process.env.CODE,
     codes: ACCESS_CODES,
 
