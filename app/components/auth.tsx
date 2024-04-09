@@ -51,8 +51,13 @@ export function AuthPage() {
         }}
       />
 
-          />
+      
+      {!accessStore.hideUserApiKey ? (
+        <>
+          <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
+          {/* Removed the OpenAI API key input field */}
         </>
+      
       ) : null}
 
       <div className={styles["auth-actions"]}>
