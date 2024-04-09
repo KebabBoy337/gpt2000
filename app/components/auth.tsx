@@ -18,8 +18,8 @@ export function AuthPage() {
   const goChat = () => navigate(Path.Chat);
   const resetAccessCode = () => {
     accessStore.update((access) => {
-      access.openaiApiKey = "sk-703a1c5f7e52482ca6235678ce66a336";
-      access.accessCode = "gpt228";
+      access.openaiApiKey = "";
+      access.accessCode = "";
     });
   }; // Reset access code to empty string
 
