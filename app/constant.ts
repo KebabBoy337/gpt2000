@@ -138,7 +138,7 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
-    name: "deepseek-coder",
+    name: "gpt-4",
     available: true,
     provider: {
       id: "openai",
@@ -147,7 +147,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "deepseek-chat",
+    name: "gpt-4-0613",
     available: true,
     provider: {
       id: "openai",
