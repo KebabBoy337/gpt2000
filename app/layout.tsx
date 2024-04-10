@@ -10,10 +10,11 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "BondAI",
+  description: "Your personal code chat bot.",
   viewport: {
     width: "device-width",
+    heigh: "device-heigh",
     initialScale: 1,
     maximumScale: 1,
   },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "NextChat",
+    title: "BondAI",
     statusBarStyle: "default",
   },
 };
