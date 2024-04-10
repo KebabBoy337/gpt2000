@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   description: "Your personal code chat bot.",
   viewport: {
     width: "device-width",
-    heigh: "device-heigh",
     initialScale: 1,
     maximumScale: 1,
   },
